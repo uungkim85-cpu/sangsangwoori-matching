@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequential-thinking__sequentialthinking",
+      "mcp__supabase__list_organizations",
+      "mcp__supabase__list_projects",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
