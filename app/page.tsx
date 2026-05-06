@@ -39,9 +39,9 @@ export default function HomePage() {
               <CardDescription className="text-base">{description}</CardDescription>
             </CardHeader>
             <div className="p-6 pt-0">
-              <Button asChild className="w-full text-lg py-6">
-                <Link href={href}>{label}</Link>
-              </Button>
+              <Link href={href} className="block">
+                <Button className="w-full text-lg py-6">{label}</Button>
+              </Link>
             </div>
           </Card>
         ))}
